@@ -7,8 +7,31 @@
 */
 
 /*--------------------------------------------------------------
-# General
+# CODIGO AGREGADO POR MI
 --------------------------------------------------------------*/
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  opacity: 0.5; /* Puedes ajustar este valor según tus preferencias */
+}
+
+.portafolioweb {
+  text-align: center; /* Centra el contenido dentro de .portafolioweb */
+}
+
+.github i {
+  font-size: 20em; /* Ajusta el tamaño del icono según tus preferencias */
+  display: block; /* Para que la propiedad margin: auto funcione correctamente */
+  margin: auto; /* Centra horizontalmente el icono dentro de su contenedor */
+}
+
+
+/*----------------------------------------------------------------
+# CODIGO GENERAR ORIGINAL DEL PORTAFOLIO
+------------------------------------------------------------------ */
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -442,7 +465,8 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0.8;
 }
 
 .facts .count-box i {
@@ -1015,7 +1039,8 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0.8;
 }
 
 .contact .info i {
