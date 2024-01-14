@@ -43,6 +43,7 @@
       }
     });
   });
+
   //Fetch es para traerme los datos de la API.
   function php_email_form_submit(thisForm, action, formData) {
     fetch(action, {
@@ -71,10 +72,11 @@
     });
   }
 
-  function displayError(thisForm, error) {
-    thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.error-message').innerHTML = error;
-    thisForm.querySelector('.error-message').classList.add('d-block');
-  }
+  // function displayError(thisForm, error) {
+  //   thisForm.querySelector('.loading').classList.remove('d-block');
+  //   thisForm.querySelector('.error-message').innerHTML = error;
+  //   thisForm.querySelector('.error-message').classList.add('d-block');
+  // }
 
 })();
+
